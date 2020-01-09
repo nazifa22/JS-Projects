@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href ="assets/css/style.css" rel ="stylesheet">
+    </head>
+    <body>
+        <h1>This is best quiz on the internet!</h1>
+        <form id = "quiz" name = "quiz">
+            <p class = "questions">What does CSS stand for?</p>
+            <input id = "textbox" type = "text" name = "question1">
+            <p class = "questions">When using the padding property; are you allowed to use negative values?</p>
+            <input type = "radio" id = "mc" name = "question2" value = "Yes"> Yes<br>
+            <input type = "radio" id = "mc" name = "question2" value = "No"> No<br>
+            <p class = "questions">How do you group selectors?</p>
+            <input type = "radio" id = "mc" name = "question3" value = "Separate each selector with a space">Separate each selector with a space  <br>
+            <input type = "radio" id = "mc" name = "question3" value = "Separate each selector with a comma">Separate each selector with a comma  <br>
+            <input id = "button" type = "button" value = "Submit!" onclick = "check();">
+        </form>
+        <div id = "after_submit">
+            <p id = "number_correct"></p>
+            <p id = "message"></p>
+            <img id = "picture">
+        </div>
+        <script src = "assets/js/main.js"></script>
+    </body>
+</html>
