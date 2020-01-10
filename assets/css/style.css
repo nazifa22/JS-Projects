@@ -1,0 +1,28 @@
+#content {
+    color: blue;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #5795ee;
+    font-size: 20px;
+    background-color: white;
+}
+
+.bt {
+    height: 40px;
+    width: 45px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.img {
+    height: 12px;
+    width: 12px;
+    text-align: center;
+    align-content: center;
+
+}
