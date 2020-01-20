@@ -85,5 +85,7 @@ function executeResult() {
     let finalResult = result.toString();
     finalResult = finalResult.replace(patt, '');
     var calculate = eval(finalResult);
+    result.splice(0);
+    result.push(calculate);
     document.getElementById('input').innerHTML = calculate;
 }
