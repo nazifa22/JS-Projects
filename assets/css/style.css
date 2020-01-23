@@ -132,6 +132,11 @@ ul.todo li:last-of-type {
   margin: 0;
 }
 
+#todo-title:empty {
+  visibility: hidden !important;
+  display: none !important;
+}
+
 ul.todo li .buttons {
   width: 100px;
   height: 50px;
