@@ -20,8 +20,8 @@ function remove(e) {
 }
 
 function completed(e) {
-   var element = e.currentTarget.parentElement.parentElement;
-   var cloneNode = element.cloneNode(true);
-   document.getElementById('completed').appendChild(cloneNode);
-   e.currentTarget.parentElement.parentElement.remove();
+    var element = e.currentTarget.parentElement.parentElement;
+    var cloneNode = element.cloneNode(true);
+    document.getElementById('completed').appendChild(cloneNode);
+    remove(e);
 }
