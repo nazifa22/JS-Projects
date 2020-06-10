@@ -2,11 +2,12 @@ function check() {
 	document.getElementById("after_submit").style.visibility = "visible";
 	var correct_answers = 0;
 	var Q1 = document.getElementById('textbox').value;
+	Q1.toLowerCase();
 	var Q2 = document.quiz.question2.value;
 	var Q3 = document.quiz.question3.value;
 	console.log(Q2);
 	Q1 = Q1.toLowerCase();
-	if(Q1 === 'cascading style sheets') {
+	if(Q1 === 'cascading style sheet') {
 		correct_answers++;
 	}
 	if(Q2 === 'Yes') {
